@@ -1,0 +1,8 @@
+		Before deletion		After deletion
+Load factor	Avg search time		Avg search time
+0.4		213738 ns		522404 ns
+0.5		594634 ns		610634 ns
+0.6		1632063 ns		538253 ns
+0.7		791931 ns		601123 ns
+0.8		510119 ns		427440 ns
+0.9		519510 ns		445617 ns

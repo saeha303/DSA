@@ -1,0 +1,8 @@
+		Before deletion					After deletion
+Load factor	Avg search time	Avg number of probes		Avg search time	Avg number of probes
+0.4		580947 ns		0			5557672 ns		5003
+0.5		630246 ns		0			5603090 ns		5003
+0.6		541885 ns		0			5603375 ns		5004
+0.7		579877 ns		1			5592495 ns		5004
+0.8		528586 ns		2			5445481 ns		5005
+0.9		499775 ns		4			5690800 ns		5008

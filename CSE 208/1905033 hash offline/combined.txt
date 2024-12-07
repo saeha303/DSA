@@ -1,0 +1,54 @@
+For load factor 0.4
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	450214 ns		N/A			451166 ns		N/A
+Linear Probing		593666 ns		0			939619 ns		525
+Quadratic Probing	474047 ns		0			997309 ns		525
+Double Hashing		522380 ns		0			1150095 ns		525
+
+
+For load factor 0.5
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	555692 ns		N/A			460307 ns		N/A
+Linear Probing		421269 ns		0			1017288 ns		525
+Quadratic Probing	459538 ns		0			943673 ns		525
+Double Hashing		421250 ns		0			1266000 ns		525
+
+
+For load factor 0.6
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	530403 ns		N/A			466580 ns		N/A
+Linear Probing		417758 ns		0			900193 ns		525
+Quadratic Probing	581290 ns		0			933000 ns		525
+Double Hashing		1753370 ns		0			1134580 ns		525
+
+
+For load factor 0.7
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	518671 ns		N/A			450849 ns		N/A
+Linear Probing		450876 ns		1			915369 ns		518
+Quadratic Probing	518712 ns		0			970013 ns		518
+Double Hashing		641671 ns		0			1193835 ns		518
+
+
+For load factor 0.8
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	500511 ns		N/A			534297 ns		N/A
+Linear Probing		569845 ns		2			959678 ns		527
+Quadratic Probing	474511 ns		1			854869 ns		526
+Double Hashing		570857 ns		1			1259547 ns		526
+
+
+For load factor 0.9
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	540744 ns		N/A			445680 ns		N/A
+Linear Probing		540670 ns		2			1114042 ns		527
+Quadratic Probing	456000 ns		13			978531 ns		538
+Double Hashing		530489 ns		2			1018563 ns		527
+
+

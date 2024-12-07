@@ -1,0 +1,54 @@
+For load factor 0.4
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	533320 ns		N/A			511132 ns		N/A
+Linear Probing		508540 ns		0			5352032 ns		5003
+Quadratic Probing	543940 ns		0			5468242 ns		5003
+Double Hashing		518407 ns		0			7122362 ns		5003
+
+
+For load factor 0.5
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	560590 ns		N/A			518936 ns		N/A
+Linear Probing		526504 ns		0			5366756 ns		5003
+Quadratic Probing	488604 ns		0			5930562 ns		5003
+Double Hashing		558426 ns		0			7114110 ns		5004
+
+
+For load factor 0.6
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	510181 ns		N/A			505316 ns		N/A
+Linear Probing		360630 ns		0			5022678 ns		5004
+Quadratic Probing	88098 ns		0			5203668 ns		5004
+Double Hashing		96356 ns		0			6724901 ns		5004
+
+
+For load factor 0.7
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	121068 ns		N/A			108278 ns		N/A
+Linear Probing		93994 ns		1			5078971 ns		5004
+Quadratic Probing	92548 ns		0			5241780 ns		5004
+Double Hashing		106800 ns		1			10679121 ns		5004
+
+
+For load factor 0.8
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	93443 ns		N/A			89811 ns		N/A
+Linear Probing		115931 ns		1			7877380 ns		5005
+Quadratic Probing	164558 ns		1			7447291 ns		5004
+Double Hashing		108506 ns		1			7830567 ns		5004
+
+
+For load factor 0.9
+			Before deletion					After deletion
+Method			Avg search time		Avg number of probes	Avg search time		Avg number of probes
+Separate chaining	114181 ns		N/A			116364 ns		N/A
+Linear Probing		109708 ns		3			6577391 ns		5007
+Quadratic Probing	108643 ns		1			6714976 ns		5005
+Double Hashing		114087 ns		1			7800391 ns		5005
+
+
